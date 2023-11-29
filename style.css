@@ -109,9 +109,20 @@ footer {
 ul li a {
     text-decoration: none;
     color: #FFF;
+    padding: 0.2em;
 }
 ul li{
     display: flex;
-    justify-self: end;
     list-style: none;
+}
+
+ul{
+    display: flex;
+    padding-left: 65em;
+    align-items: center;
+}
+ul li a:hover{
+    border: 1px solid black;
+    padding: 0.5em;
+    transition: all 0.4s;
 }
