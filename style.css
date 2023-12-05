@@ -126,3 +126,14 @@ ul li a:hover{
     padding: 0.5em;
     transition: all 0.4s;
 }
+
+.rodape{
+    background-color: transparent;    
+    width: 100%;
+}
+
+.rodape p{
+    color: #FFF;
+    text-align: center;
+    padding-top: 20em;
+}
